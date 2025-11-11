@@ -744,17 +744,21 @@
         </section>
 
         <!-- Email Capture Section -->
-        <section class="email-capture" id="email-signup">
-            <h2>🔥 Get Full Access + Weekly Pro Tips</h2>
-            <p>Join 10,000+ professionals leveling up their careers. Instant access to all resources.</p>
-            <form class="email-form" onsubmit="handleEmailSubmit(event)">
-                <input type="email" id="emailInput" placeholder="Enter your email" required>
-                <button type="submit" class="btn btn-primary">Get All Resources →</button>
-            </form>
-            <p style="margin-top: 20px; font-size: 0.9em; color: #808080;">
-                💡 Or follow us on TikTok and DM for individual day passwords
-            </p>
-        </section>
+        <form
+  action="https://formspree.io/f/xrbrggjb"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 
         <!-- Footer -->
         <footer class="footer">
